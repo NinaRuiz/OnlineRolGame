@@ -9,6 +9,7 @@ import { LoginPageComponent } from './pages/login-page/login-page.component';
 import { RegisterPageComponent } from './pages/register-page/register-page.component';
 import { CreateCaracterComponent } from './pages/create-caracter-page/create-caracter.component';
 import { UserHomePageComponent } from './pages/user-home-page/user-home-page.component';
+import { GameNavComponent } from './components/game-nav/game-nav.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { UserHomePageComponent } from './pages/user-home-page/user-home-page.com
     LoginPageComponent,
     RegisterPageComponent,
     CreateCaracterComponent,
-    UserHomePageComponent
+    UserHomePageComponent,
+    GameNavComponent
   ],
   imports: [
     BrowserModule,
