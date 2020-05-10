@@ -10,6 +10,7 @@ import { RegisterPageComponent } from './pages/register-page/register-page.compo
 import { CreateCaracterComponent } from './pages/create-caracter-page/create-caracter.component';
 import { UserHomePageComponent } from './pages/user-home-page/user-home-page.component';
 import { GameNavComponent } from './components/game-nav/game-nav.component';
+import { UserCaractersPageComponent } from './pages/user-caracters-page/user-caracters-page.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { GameNavComponent } from './components/game-nav/game-nav.component';
     RegisterPageComponent,
     CreateCaracterComponent,
     UserHomePageComponent,
-    GameNavComponent
+    GameNavComponent,
+    UserCaractersPageComponent
   ],
   imports: [
     BrowserModule,
