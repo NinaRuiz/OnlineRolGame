@@ -8,6 +8,7 @@ import { HomePageComponent } from './pages/home-page/home-page.component';
 import { LoginPageComponent } from './pages/login-page/login-page.component';
 import { RegisterPageComponent } from './pages/register-page/register-page.component';
 import { CreateCaracterComponent } from './pages/create-caracter-page/create-caracter.component';
+import { UserHomePageComponent } from './pages/user-home-page/user-home-page.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { CreateCaracterComponent } from './pages/create-caracter-page/create-car
     HomePageComponent,
     LoginPageComponent,
     RegisterPageComponent,
-    CreateCaracterComponent
+    CreateCaracterComponent,
+    UserHomePageComponent
   ],
   imports: [
     BrowserModule,
